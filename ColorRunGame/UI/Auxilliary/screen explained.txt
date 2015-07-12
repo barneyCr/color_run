@@ -1,0 +1,30 @@
+gamePanel_Paint() {
+	set screen center
+	set radius
+	
+
+	foreach (cell in Cells)
+	{
+		if (me.distanceTo(cell) < radius + 500) {
+			drawEllipse(cell.x, cell.y, massToRadius(cell.mass), cell.color)
+			if (cell is PlayerCell) {
+				drawText(cell.x- 5px, cell.y, cell.owner.name)
+				if (cell.owner == me)
+					drawText(cell.x-1px, cell.y+5px, cell.mass.toString())
+			}
+		}
+	}
+	
+	....
+}
+
+Point coord_To_Screen(Point coord) {
+	// for example: cell at 9800-4350
+	// 				screen at 10000-4000
+	
+	cell will be drawn at 9800-10000 = -200   X
+						  4350-4000  = +350   Y
+						  
+	return { X: coord.x - screen.x,
+			 Y: coord.y - screen.y };
+}

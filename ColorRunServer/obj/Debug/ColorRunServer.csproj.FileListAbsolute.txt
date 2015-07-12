@@ -1,0 +1,6 @@
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\bin\Debug\ColorRunServer.exe.config
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\obj\Debug\ColorRunServer.csprojResolveAssemblyReference.cache
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\bin\Debug\ColorRunServer.exe
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\bin\Debug\ColorRunServer.pdb
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\obj\Debug\ColorRunServer.exe
+c:\users\cristiantodea\documents\visual studio 2013\Projects\ColorRun\ColorRunServer\obj\Debug\ColorRunServer.pdb

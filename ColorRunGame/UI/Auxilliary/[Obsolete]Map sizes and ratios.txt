@@ -1,0 +1,61 @@
+﻿RATIO:  1,6 = 16/10
+RATIO: 8,75 = 35/ 4
+
+
+MAP SIZE
+                           Platform on 1 Screen
+Width  (X) = 11200 <GU>       		=>			700 <GU>
+Height (Y) =  7000 <GU>       		=>			437,5 <GU>
+Ratio      =   1,6
+
+1 ecran la masa = 10 vede: 700x437,5 gu2
+
+
+SCREEN
+
+Ratio      =   1,6         1 Screen on Platform
+Width  (X) =  1280 <px>       		=>			80 <px>
+Height (Y) =   800 <px>       		=>			50 <px>
+
+
+CENTRAL CELL
+
+										Cell Radius / Screen Width ratio
+Radius     =    80  <px>			=>			1/16
+		-> o celula cu diam = 10 px (raza = 5 px) are masa de 43,75
+							  80 px  ...   40 px  	........    350
+		
+
+		WHEN CENTRAL CELL INCREASES IN MASS,
+		!WE INCREMENT THE GU/px RATIO!,
+		SO A SCREEN OF 1280x800 PX^2 SHOWS
+		A LARGER PORTION OF THE GAME PLATFORM
+		
+		I FOUND THE 1/16 RADIUS/SC_WIDTH OPTIMAL
+		SO IN 80 PX OF SCREEN WIDTH WE HAVE 5 PX
+		IN RADIUS, WHICH IS 10 MASS (DIAMETER)
+		
+
+		IN 1280 PX OF SCREEN WIDTH, WE HAVE 80 PX CELL RADIUS
+		THIS VALUE IS INDEPENDENT OF THE CELL'S MASS
+
+
+		
+		Valorile de mai jos sunt valabile pt masa initiala (10):
+		
+		
+C RAD / SCREENWIDTH(px):    1/16
+	-> pt masa =  10 :  160 px
+	-> pt masa = 100 : 1600 px
+		
+   GU /       px RATIO :    8,75
+   px /       GU RATIO : 0,11428
+		-> daca vrem sa reprezentam 875 unitati de joc avem nevoie de 100 de pixeli
+		-> fiecare 114 pixeli inseamna 1000 unitati de joc        (114 px = 300 GU)
+		
+		
+   
+  MAP /   SCREEN RATIO :      16
+MAP^2 / SCREEN^2 RATIO :     256
+		-> pe o platforma de joc incap 256 de ecrane la masa normala
+		-> pt a acoperi o latura de platforma pe linie dreapta, sunt necesare 16 ecrane, fiecare cu o latura comuna fata de cel anterior
